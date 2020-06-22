@@ -1,0 +1,16 @@
+/* SlideShow CSS */
+#slideshow { width:550px; height:207px;}
+#slidesContainer {float:left; width:480px;  /* allow scrollbar */  }
+#slidesContainer .slide { margin:0 auto; width:890px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */ height:205px; }
+
+
+/* Slideshow controls style rules. */
+.control { display:block; width:35px; height:20px; text-indent:-10000px; float:left; cursor: pointer; }
+#leftControl { float:left; background: url(../images007/index2_19_hover.jpg) no-repeat 0 0;  position:relative; top:85px; left:475px;}
+#rightControl { top:0; right:0; background:url(../images007/index2_21.jpg) no-repeat 0 0;  position:relative; top:85px; left:-15px;}
+#leftControl:hover{background: url(../images007/index2_19.jpg) no-repeat 0 0; position:relative; top:85px; left:475px;}
+#rightControl:hover{ background:url(../images007/index2_21_hover.jpg) no-repeat 0 0;  position:relative; top:85px; left:-15px;}
+
+
+
+

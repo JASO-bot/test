@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*public_css*/
+*{margin:0px; padding:0px;}
+body{font-size:12px;}
+.width1000{width:1000px; margin:0 auto;}
+.cl{clear:both;}
+a{text-decoration:none; color:#000;}
+a img{border:none;}
+li{list-style:none;}
+.margintop15{margin-top:15px;}
+/*list_page*/
+#list_page {height:18px;text-align:center;width:100%;margin-top:22px;}
+#list_page ul {padding:0px;margin:0px;background:#F9F5FF;font-size:12px;}
+#list_page ul li {float:left;margin-left:3px;display:inline;border:1px solid #fff;}
+#list_page ul li a{padding:0px 3px;text-decoration:none;color:#797979;display:block;}
+#list_page ul li a:hover {background:#3398ff;color:#fff;}
+/*ipage*/
+#ipage{border:0;margin:0;padding:0;list-style:none;padding-top:20px; margin-left:220px; margin-bottom:30px;}
+#ipage li{border:0; margin:0; padding:0;font-size:12px;list-style:none;margin-right:2px;display:inline;height:14px;line-height:14px;}
+#ipage a{border:solid 1px #9aafe5;margin-right:2px;display:inline}
+#ipage .previous-off ,#ipage .next-off {border:solid 1px #DEDEDE;color:#888888;display:block;float:left;font-weight:bold;margin-right:2px;padding:3px 4px;}
+#ipage .next a ,#ipage .previous a {font-weight:bold;} 
+#ipage .active{background:#2e6ab1;color:#FFFFFF;font-weight:bold;display:block;float:left;padding:4px 6px;}
+#ipage a:link ,#ipage a:visited {color:#0e509e;display:block;float:left;padding:3px 6px;text-decoration:none;}
+#ipage a:hover{border:solid 1px #0e509e;}
+
+.news_nei_title_h1 {font-weight:bolder;font-size:14px;color:#000;text-align:center; padding-top:20px;}
+.news_nei_title {height:32px;line-height:32px;text-align:center; margin-top:8px;color:#000;}
+.newscontent{line-height:200%;padding:15px;}
